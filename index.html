@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ITSE-3193</title>
+        <link rel="stylesheet" href="/assets/style.css">
+    </head>
+    <body>
+            <main>
+                    <header>
+                      Welcome to {{ .Title }}  
+                    </header>
+                    <section class="container">
+                        <ul>
+                            <li>
+                                ECTS: {{ .ECTS }}
+                            </li>
+                            <li>
+                                Code: {{ .Code }}
+                            </li>
+                        </ul>
+                        <p>{{ .Description }}</p>
+                    </section>
+                  </main>
+    </body>
+</html>
